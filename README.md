@@ -14,7 +14,22 @@
 7. Stop the program. 
 
 ## Program
+```python
+num=int(input("Enter a numer :"))
+if num<=1:
+    print(num,"is not a prime number")
+else:
+    for i in range(2,int(num**0.5)+1):
+        if num%i==0:
+            print(num,"is not a prime number")
+            break
+    else:
+        print(num,"is a prime number")
+```
 
 ## Output
+<img width="1500" height="193" alt="image" src="https://github.com/user-attachments/assets/3c942ea5-f14c-4864-81f4-3a4ac20b9ace" />
+
 
 ## Result
+Thus, the python program to find if a number is prime or not has been successfully executed.
